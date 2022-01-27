@@ -1,0 +1,126 @@
+# 关于本项目 （About）
+
+本项目名称、灵感均来自 [ANIPLEX](https://aniplex-exe.com/) 发行的 [ATRI-My Dear Moments-](https://atri-mdm.com/)
+
+本项目中所使用的任何有关 ATRI 的图标、LOGO，解释权、著作权均归 [ANIPLEX](https://aniplex-exe.com/)。你可以[在此](https://aniplex-exe.com/guidelines/)查看相关内容
+
+为QQ群中复现一个优秀的功能性机器人是本项目的目标
+
+!!! warning
+    一切开发旨在学习，请勿用于非法用途
+
+## 实现（Work）
+
+本项目可以在**任何平台**下运行，只要你具备基本的 `Python >= 3.8` 环境和一根接入互联网的网线
+
+实现方式为 `go-cqhttp 或其它遵守Onebot标准的协议` + `NoneBot2`
+
+因项目的特殊性，会不定时进行更新。更新日志：请关注commit
+
+再一个：由于学业原因，在`2022年6月`前不会有太大的更新，当然，欢迎提交`Pull Request`
+
+## 功能概览（Preview）
+
+!!! info
+    此页面只展示主要功能，详细请在示例群内 **@机器人** 并发送`菜单`以获取帮助
+
+!!! attention
+    如碰到示例机器人未响应，大概率是寄了
+
+- 涩批:
+    - 文爱
+    - 涩图
+    - 涩图嗅探
+    - 涩批翻译机
+
+- 实用:
+    - 在线运行代码
+    - 数据可视化（前端界面，未完成）
+    - 伪造转发内容
+    - 以图搜图
+    - 以图搜番
+    - ATRI语（加密、解密，改自[`rcnb`](https://github.com/rcnbapp/RCNB.js)）
+    - 简单骰子
+
+- 娱乐:
+    - 看不懂的笑话
+    - 今天吃什么
+    - 老婆！
+    - 口臭一下
+
+- 其他:
+    - B站小程序解析
+    - 状态查看
+
+**TODO**:
+
+  - [ ] 网页控制台
+  - [ ] RSS订阅
+  - [ ] B站动态订阅
+  - [ ] 冷重启
+  - [ ] 进裙验证（问题可自定义）
+  - [ ] 好感度系统（目前优先在[`go-ATRI`](https://github.com/Kyomotoi/go-ATRI)上实现）
+  - [ ] 模拟韭菜
+
+## 特别感谢（Thanks）
+
+[Richard Chien](Bot Universe): [Onebot标准](https://onebot.dev/)
+
+[Mrs4s](https://github.com/Mrs4s): [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)
+
+[NoneBot](https://github.com/nonebot): [NoneBot2](https://github.com/nonebot/nonebot2)
+
+[JetBrains](https://www.jetbrains.com/?from=ATRI) 为本项目提供 [PyCharm](https://www.jetbrains.com/pycharm/?from=ATRI) 等 IDE 的授权<br>
+[<img src="https://cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/noting/jetbrains-variant-3.png" width="200"/>](https://www.jetbrains.com/?from=ATRI)
+
+以及以下朋友们：
+<details markdown='1'><summary>*/ω＼*(</summary>
+    *排名不分现后*<br>
+    · 50861735 11.00 CNY<br>
+    · 1072324725 17.00 CNY<br>
+    · AfdianUser_quGy 5.00 CNY<br>
+    · 1752179928 56.14 CNY<br>
+    · Mikasa 66.00 CNY<br>
+    · SkipM4 32.00 CNY<br>
+    · Chunk7 33.00 CNY<br>
+    · Wwwwwwalnut 10.00 CNY<br>
+    · 演变 5.00 CNY<br>
+    · 梓哟P 23.33 CNY<br>
+    · Ohdmire 5.00 CNY<br>
+    · TerRALi 23.45 CNY<br>
+    · 虾仁 10.00 CNY
+</details>
+
+## 支持（Support）
+
+本项目已启用爱发电，你的支持就是对开发者的最大鼓励！
+
+并会将你的ID写在项目**特别感谢**一栏。
+
+-> https://afdian.net/@Kyomotoi
+
+## 贡献（Contribute）
+
+如果你在运行本项目中发现任何问题，你可以：
+
+- [提交 Issue](https://github.com/Kyomotoi/ATRI/issues)
+- [提交 Pull request](https://github.com/Kyomotoi/ATRI/pulls)
+- [在反馈群内进行反馈](https://jq.qq.com/?_wv=1027&k=WoAAYXbJ)
+
+!!! warning
+    - 提交 `Pull request` 时，请注意：
+
+        - 所提交的代码尽量与原仓库代码风格保持一致
+        - 遵守 [`PEP-8`](https://www.python.org/dev/peps/pep-0008/) 标准
+        - 变量名清晰明了
+        - 包含单元测试（对插件的修改/添加）
+    
+    如果你是初次提交 `Pull request`，请先阅读[这篇文章](developer/overview.md)
+
+## 协议（License）
+
+本项目使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 协议
+
+意味着你可以运行本项目，并向你的用户提供服务，但出现对本项目源码进行修改，则需要将你修改后的版本对你的用户`开源`
+
+在运行本项目期间，行为违反当地法律法规的而被处理的，本项目概不承担任何责任
