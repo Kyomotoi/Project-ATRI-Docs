@@ -12,12 +12,16 @@
 
 目前搭载了以下几个模块，你可以点击然后跳转到对应的文档界面:
 
+!!! TIP
+    如果本栏内容不正确，还请通过`私戳`或`@bot`并发送`菜单`的方式查看对应帮助
+
 - 机器人基础内容:
     - [机器人管理](plugin-manager.md)
     - [机器人帮助](plugin-help.md)
     - [机器人状态](plugin-status.md)
     - [用户反馈](plugin-repo.md)
     - [基础功能](plugin-essential.md)
+    - [广播](plugin-broadcast.md)
 
 - 机器人附属插件:
     - [聊天相关](plugin-chat.md)

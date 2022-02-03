@@ -86,7 +86,7 @@
     · Wwwwwwalnut 10.00 CNY<br>
     · 演变 5.00 CNY<br>
     · 梓哟P 23.33 CNY<br>
-    · Ohdmire 5.00 CNY<br>
+    · Ohdmire 20.00 CNY<br>
     · TerRALi 23.45 CNY<br>
     · 虾仁 10.00 CNY
 </details>

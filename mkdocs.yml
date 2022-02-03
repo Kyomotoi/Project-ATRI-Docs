@@ -1,7 +1,7 @@
 site_name: Docs for ATRI
 repo_url: https://github.com/Kyomotoi/ATRI
 repo_name: Kyomotoi/ATRI
-edit_uri: ""
+edit_uri: "https://github.com/Kyomotoi/Project-ATRI-Docs/tree/main/docs"
 theme:
   name: material
   favicon: assets/images/favicon.png
@@ -51,7 +51,7 @@ nav:
     - 在 Linux 上部署: install/install-on-linux.md
     - 在 Windows 上部署: install/install-on-win.md
     - 配置本项目: install/configuration-bot.md
-    - 配置协议端: install/configuration-protocol.md
+    - 第一次对话: install/helloworld.md
   - 功能介绍:
     - 概览: user/overview.md
     - 基础模块-机器人管理: user/plugin-manager.md
@@ -59,6 +59,7 @@ nav:
     - 基础模块-机器人状态: user/plugin-status.md
     - 基础模块-用户反馈: user/plugin-repo.md
     - 基础模块-基础功能: user/plugin-essential.md
+    - 基础模块-广播: user/plugin-broadcast.md
     - 模块-聊天: user/plugin-chat.md
     - 模块-在线运行代码: user/plugin-coderunner.md
     - 模块-小玩具: user/plugin-funny.md
@@ -70,4 +71,4 @@ nav:
     - 模块-以图搜番: user/plugin-animesearch.md
   - 开发:
     - 概览: developer/overview.md
-  - 时间线: changelog/overview.md
+  - 时间线: changelog.md

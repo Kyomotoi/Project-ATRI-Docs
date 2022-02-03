@@ -14,19 +14,28 @@ BotSelfConfig:
   session_expire_timeout: 60
   proxy: ""  # 请参考文档
 
+InlineGoCQHTTP:
+  accounts: # 可多个账号，具体请参考文档
+    - uin: 1234567890
+      password: ""
+      protocol: 3
+  
+  download_version: "latest"
+
 SauceNAO:
   key: ""
 
 Setu:
-  reverse_proxy: False # 请参考文档
-  reverse_proxy_domain: ""
+  reverse_proxy: true # 请参考文档
+  reverse_proxy_domain: "i.pixiv.re"
 ```
 
 其中:
 
-- BotSelfConfig 为本项目机器人主体设置
-- SauceNAO 为搜图相关设置
-- Setu 为色图相关设置
+- [BotSelfConfig](#botselfconfig) 为本项目机器人主体设置
+- [InlineGoCQHTTP](#inlinegocqhttp) 为gocqhttp相关设置
+- [SauceNAO](#saucenao) 为搜图相关设置
+- [Setu](#setu) 为色图相关设置
 
 !!! info
     如果你看不懂本设置中的英文词汇，请善用翻译工具
@@ -52,6 +61,33 @@ Setu:
 
 !!! info
     如果你不是很能理解个别设置，我的建议是：不要动
+
+### InlineGoCQHTTP
+
+- accounts: 配置机器人的 `账号`，可以设置多个
+    - demo:
+        ```yaml
+        accounts:
+            - uin: 1234567890
+              password: ""
+              protocol: 3
+            - uin: 1234567891
+              password: ""
+              protocol: 3
+            ...
+        ```
+
+        其中 `uin` 为QQ号，`password` 为密码，`protocol` 为协议，运行本项目，可选值为 `0`、`1`、`3`，分别对应:
+
+        |值|类型|理由|
+        |-|-|-|
+        |0|iPad|可以电脑、手机同时在线|
+        |1|Android Phone|仅支持电脑在线，手机上线会被顶下|
+        |3|Macos|可以手机在线，高贵MacOS，尽显bot的高贵|
+
+        对于本项目，推荐：`3`
+
+- download_version: 一般情况下我们无需关心
 
 ### SauceNAO
 
@@ -118,14 +154,14 @@ Setu:
     url.hostname = "i.pximg.net";
 
     let request = new Request(url, event.request);
-    event.respondWith(
-        fetch(request, {
-        headers: {
-            'Referer': 'https://www.pixiv.net/',
-            'User-Agent': 'Cloudflare Workers'
-        }
-        })
-    );
+        event.respondWith(
+            fetch(request, {
+            headers: {
+                'Referer': 'https://www.pixiv.net/',
+                'User-Agent': 'Cloudflare Workers'
+            }
+            })
+        );
     });
     ```
 
