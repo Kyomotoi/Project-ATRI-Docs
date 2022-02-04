@@ -20,6 +20,7 @@ InlineGoCQHTTP:
       password: ""
       protocol: 3
   
+  download_domain: "github.com"
   download_version: "latest"
 
 SauceNAO:
@@ -86,6 +87,10 @@ Setu:
         |3|Macos|可以手机在线，高贵MacOS，尽显bot的高贵|
 
         对于本项目，推荐：`3`
+
+- download_domain:
+    - 配置机器人的 `下载域名`，默认为 `github.com`
+    - 如果你是国内用户，请留空: `""`
 
 - download_version: 一般情况下我们无需关心
 
