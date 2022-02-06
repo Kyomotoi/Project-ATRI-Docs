@@ -27,9 +27,11 @@ ATRI | 02-02 16:32:00 | INFO nonebot >> OneBot V11 | Bot (你bot的qq号) connec
 ATRI | 02-02 16:32:00 | INFO gocqhttp >> [(你bot的qq号)] 已连接到反向WebSocket Universal服务器 ws://127.0.0.1:20000/onebot/v11/ws
 ```
 
-尝试向你的bot发送`/ping`后，你`或许`会得到如下回应:
+尝试向你的bot发送 `/ping` 后，你 `或许` 会得到如下回应:
 ```
 I'm fine.
 ```
+
+> 如果你使用的是 `内置 gocqhttp`，你还可以通过键入 `gocq` 以得到bot的运行状态，仅 `超级用户` 可触发
 
 至此，所有准备已完成！你现在拥有了一只活波可爱的ATRI！

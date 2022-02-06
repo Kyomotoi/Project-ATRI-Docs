@@ -94,6 +94,9 @@ Setu:
 
 - download_version: 一般情况下我们无需关心
 
+!!! warning
+    如果你不希望使用本项目内置的 `gocqhttp`，使用外部的话，请确保上报方式为: `array`
+
 ### SauceNAO
 
 - key: SauceNAO 搜图的 API 密钥

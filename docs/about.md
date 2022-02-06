@@ -17,7 +17,7 @@
 
 因项目的特殊性，会不定时进行更新。更新日志：请关注commit
 
-再一个：由于学业原因，在`2022年6月`前不会有太大的更新，当然，欢迎提交`Pull Request`
+再一个：由于学业原因，在 `2022年6月` 前不会有太大的更新，当然，欢迎提交 `Pull Request`
 
 ## 功能概览（Preview）
 
@@ -35,7 +35,6 @@
 
 - 实用:
     - 在线运行代码
-    - 数据可视化（前端界面，未完成）
     - 伪造转发内容
     - 以图搜图
     - 以图搜番
@@ -46,7 +45,6 @@
     - 看不懂的笑话
     - 今天吃什么
     - 老婆！
-    - 口臭一下
 
 - 其他:
     - B站小程序解析
@@ -64,13 +62,15 @@
 
 ## 特别感谢（Thanks）
 
-[Richard Chien](Bot Universe): [Onebot标准](https://onebot.dev/)
+[Bot Universe](https://github.com/botuniverse): [Onebot标准](https://onebot.dev/)
 
 [Mrs4s](https://github.com/Mrs4s): [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)
 
 [NoneBot](https://github.com/nonebot): [NoneBot2](https://github.com/nonebot/nonebot2)
 
-[JetBrains](https://www.jetbrains.com/?from=ATRI) 为本项目提供 [PyCharm](https://www.jetbrains.com/pycharm/?from=ATRI) 等 IDE 的授权<br>
+[Richard Chien](https://github.com/richardchien), [Mnixry](https://github.com/mnixry) and GoCQHTTP Dev Group
+
+[JetBrains](https://www.jetbrains.com/?from=ATRI): 为本项目提供 [PyCharm](https://www.jetbrains.com/pycharm/?from=ATRI) 等 IDE 的授权<br>
 [<img src="https://cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/noting/jetbrains-variant-3.png" width="200"/>](https://www.jetbrains.com/?from=ATRI)
 
 以及以下朋友们：
@@ -88,7 +88,8 @@
     · 梓哟P 23.33 CNY<br>
     · Ohdmire 20.00 CNY<br>
     · TerRALi 23.45 CNY<br>
-    · 虾仁 10.00 CNY
+    · 虾仁 10.00 CNY<br>
+    · Tianli 11.00 CNY
 </details>
 
 ## 支持（Support）
