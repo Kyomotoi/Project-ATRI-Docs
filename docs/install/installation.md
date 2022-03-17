@@ -21,7 +21,8 @@
 
     国内用户请自行安排木弟子并设置代理
 
-接下来，请选择你的操作系统:
+接下来，请选择你的部署方式:
 
 - [Linux](install-on-linux.md){ .md-button }
 - [Windows](install-on-win.md){ .md-button }
+- [Docker](install-via-docker.md){ .md-button }
