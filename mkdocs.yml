@@ -51,6 +51,7 @@ nav:
     - 在 Linux 上部署: install/install-on-linux.md
     - 在 Windows 上部署: install/install-on-win.md
     - 配置本项目: install/configuration-bot.md
+    - 使用 Docker 部署: install/install-via-docker.md 
     - 第一次对话: install/helloworld.md
   - 功能介绍:
     - 概览: user/overview.md
