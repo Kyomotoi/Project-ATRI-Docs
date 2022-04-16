@@ -1,12 +1,6 @@
 # 使用 Docker 部署本项目（Init via Docker）
 
-## 从 GitHub 仓库地址拉取本项目
-
-在你喜欢的目录下键入：
-```shell
-git clone https://github.com/Kyomotoi/ATRI.git
-```
-### 进入该目录，并配置`docker-compose.yml`，您将会看到以下内容：
+### 在项目目录下的 `docker-compose.yml` 中，您将会看到以下内容：
 
 ```yaml
 version: "3"
@@ -43,6 +37,7 @@ services:
     ```shell
     sudo docker-compose up
     ```
+  
 - ARM64 & AARCH64
 
     ```shell

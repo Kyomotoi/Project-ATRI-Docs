@@ -54,7 +54,7 @@
 
   - [ ] 网页控制台
   - [ ] RSS订阅
-  - [ ] B站动态订阅
+  - [x] B站动态订阅
   - [ ] 冷重启
   - [ ] 进裙验证（问题可自定义）
   - [ ] 好感度系统（目前优先在[`go-ATRI`](https://github.com/Kyomotoi/go-ATRI)上实现）
@@ -89,7 +89,8 @@
     · Ohdmire 20.00 CNY<br>
     · TerRALi 23.45 CNY<br>
     · 虾仁 10.00 CNY<br>
-    · Tianli 11.00 CNY
+    · Tianli 11.00 CNY<br>
+    · 屁东 5.00 CNY
 </details>
 
 ## 支持（Support）
@@ -102,21 +103,7 @@
 
 ## 贡献（Contribute）
 
-如果你在运行本项目中发现任何问题，你可以：
-
-- [提交 Issue](https://github.com/Kyomotoi/ATRI/issues)
-- [提交 Pull request](https://github.com/Kyomotoi/ATRI/pulls)
-- [在反馈群内进行反馈](https://jq.qq.com/?_wv=1027&k=WoAAYXbJ)
-
-!!! warning
-    - 提交 `Pull request` 时，请注意：
-
-        - 所提交的代码尽量与原仓库代码风格保持一致
-        - 遵守 [`PEP-8`](https://www.python.org/dev/peps/pep-0008/) 标准
-        - 变量名清晰明了
-        - 包含单元测试（对插件的修改/添加）
-    
-    如果你是初次提交 `Pull request`，请先阅读[这篇文章](developer/overview.md)
+请参阅此处: [传送门](developer/overview.md)
 
 ## 协议（License）
 

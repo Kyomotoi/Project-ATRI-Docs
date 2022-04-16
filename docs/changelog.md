@@ -11,9 +11,9 @@
 
 - 更新版本至: `YHN-001-A05.fix1`
 - 新增:
-    - 插件：[`帮助`](user/plugin-help.md)
+    - 插件：[`帮助`](user/service-help.md)
         - 新增本文档地址
-    - 插件：[`涩图`](user/plugin-setu.md)
+    - 插件：[`涩图`](user/service-setu.md)
         - 添加了 `冲后感`
     - `config.yml`:
         - `InlineGoCQHTTP`: `download_version` 用于指定内置 `gocqhttp` 下载、运行版本
@@ -22,7 +22,7 @@
         - 所有需要冷却的插件均换上了 `NoneBot v2.0.0 beta1` 内置的 `Cooldown`<br>（原来的由于未知原因已失效）
         - 优化本项目 `README`
     - 修复:
-        - 插件：[`老婆`](user/plugin-wife.md)
+        - 插件：[`老婆`](user/service-wife.md)
             - QQ号指向错误
             - 由于**原子性**，后续bug可能会频发，正考虑是否删除
         - 部分插件索取图片相关部分未完全适配 `NoneBot v2.0.0 beta1`
@@ -37,9 +37,9 @@
 - 更新版本至: `YHN-001-A05`
 - 新增:
     - 全面适配 `NoneBot v2.0.0 beta1`
-    - 插件：[`broadcast`](user/plugin-broadcast.md)
+    - 插件：[`broadcast`](user/service-broadcast.md)
         - 现在可以向机器人所在群推送同一消息
-    - 插件：[`essential`](user/plugin-essential.md)
+    - 插件：[`essential`](user/service-essential.md)
         - 现在可以接受、拒绝撤回消息推送
     - 内置 [`gocqhttp`](https://github.com/mnixry/nonebot-plugin-gocqhttp)
         - 现在可以连同机器人一同启动了

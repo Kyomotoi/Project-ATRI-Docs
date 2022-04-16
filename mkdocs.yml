@@ -32,6 +32,7 @@ extra:
   analytics:
     provider: google
     property: G-8FY5XX5ZG3
+  generator: false
 copyright: Copyright © 2022 Kyomotoi All Rights Reserved.
 
 markdown_extensions:
@@ -53,23 +54,25 @@ nav:
     - 配置本项目: install/configuration-bot.md
     - 使用 Docker 部署: install/install-via-docker.md 
     - 第一次对话: install/helloworld.md
-  - 功能介绍:
+  - 服务介绍:
     - 概览: user/overview.md
-    - 基础模块-机器人管理: user/plugin-manager.md
-    - 基础模块-机器人帮助: user/plugin-help.md
-    - 基础模块-机器人状态: user/plugin-status.md
-    - 基础模块-用户反馈: user/plugin-repo.md
-    - 基础模块-基础功能: user/plugin-essential.md
-    - 基础模块-广播: user/plugin-broadcast.md
-    - 模块-聊天: user/plugin-chat.md
-    - 模块-在线运行代码: user/plugin-coderunner.md
-    - 模块-小玩具: user/plugin-funny.md
-    - 模块-小程序检测: user/plugin-rich.md
-    - 模块-以图搜图: user/plugin-saucenao.md
-    - 模块-涩图: user/plugin-setu.md
-    - 模块-小工具: user/plugin-util.md
-    - 模块-群老婆: user/plugin-wife.md
-    - 模块-以图搜番: user/plugin-animesearch.md
-  - 开发:
+    - 基础服务-机器人管理: user/service-manager.md
+    - 基础服务-机器人帮助: user/service-help.md
+    - 基础服务-机器人状态: user/service-status.md
+    - 基础服务-用户反馈: user/service-repo.md
+    - 基础服务-基础功能: user/service-essential.md
+    - 基础服务-广播: user/service-broadcast.md
+    - 服务-kimo: user/service-kimo.md
+    - 服务-在线运行代码: user/service-coderunner.md
+    - 服务-小玩具: user/service-funny.md
+    - 服务-小程序检测: user/service-rich.md
+    - 服务-以图搜图: user/service-saucenao.md
+    - 服务-涩图: user/service-setu.md
+    - 服务-小工具: user/service-util.md
+    - 服务-群老婆: user/service-wife.md
+    - 服务-以图搜番: user/service-animesearch.md
+    - 服务-B站动态推送: user/service-bilibili_dynamic.md
+    - 服务-拍立得: user/service-polaroid.md
+  - 开发 - 贡献:
     - 概览: developer/overview.md
   - 时间线: changelog.md

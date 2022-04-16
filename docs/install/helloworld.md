@@ -5,6 +5,8 @@
 python main.py
 ```
 
+> 如果你是通过 `Docker` 部署的，无需以上步骤
+
 !!! WARNING
     通常呢，此处就会有人问:
 
