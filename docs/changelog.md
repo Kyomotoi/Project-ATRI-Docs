@@ -1,13 +1,12 @@
 > 此处仅为记录重大更新，修复 BUG/以及其它 请关注[`GitHub commits`](https://github.com/Kyomotoi/ATRI/commits/main)
 
 ## Comming soon...
+
 - Next: `YHN-001-A06`
 
 ---
 
 ## Feb 7, 2022
-
-> 接下来该把精力放到 [`RouterForGuild`](https://github.com/Kyomotoi/RouterForGuild) 了
 
 - 更新版本至: `YHN-001-A05.fix1`
 - 新增:

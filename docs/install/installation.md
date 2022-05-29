@@ -23,6 +23,6 @@
 
 接下来，请选择你的部署方式:
 
-- [Linux](install-on-linux.md){ .md-button }
-- [Windows](install-on-win.md){ .md-button }
-- [Docker](install-via-docker.md){ .md-button }
+- [Linux](install-on-linux.md)
+- [Windows](install-on-win.md)
+- [Docker](install-via-docker.md)
