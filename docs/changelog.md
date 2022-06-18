@@ -14,7 +14,7 @@
     - 插件: [控制台](user/service-console.md) [@Kyomotoi](https://github.com/Kyomotoi)
     - 插件: [Twitter 动态订阅](user/service-twitter.md) [@Kyomotoi](https://github.com/Kyomotoi)
     - 现在可以通过 `poetry` 为本项目创建私有环境.
-    - 现在可以通过 `Docker` 部署本项目. [@cvb001](https://github.com/cvb011)
+    - 现在可以通过 `Docker` 部署本项目. [@cvb011](https://github.com/cvb011)
 - 修复:
     - 涩图cd准备完成前可以无限触发从而导致协议端内存泄漏、进程卡死.
     - 正常退出程序时线程卡死.
