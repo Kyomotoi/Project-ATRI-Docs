@@ -1,6 +1,6 @@
 # 这里是ATRI项目文档
 
-由此开始，你将跟随着咱去了解[这个项目](https://github.com/Kyomotoi/ATRI).
+由此开始，你将跟随咱去了解[这个项目](https://github.com/Kyomotoi/ATRI).
 
 ## 本项目的特性（Features）
 

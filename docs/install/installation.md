@@ -7,7 +7,7 @@
 
 在开始之前，你需要准备以下内容:
 
-- Python 3.8+ (<3.10)
+- Python 3.8+ (=<3.10)
 - Git
 
 !!! warning
@@ -23,6 +23,5 @@
 
 接下来，请选择你的部署方式:
 
-- [Linux](install-on-linux.md)
-- [Windows](install-on-win.md)
+- [直接部署](install-direct.md)
 - [Docker](install-via-docker.md)

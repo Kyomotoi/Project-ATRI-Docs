@@ -29,6 +29,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Kyomotoi/ATRI
+      name: test
   analytics:
     provider: google
     property: G-8FY5XX5ZG3
@@ -49,8 +50,7 @@ nav:
   - 关于: about.md
   - 部署项目:
     - 准备工作: install/installation.md
-    - 在 Linux 上部署: install/install-on-linux.md
-    - 在 Windows 上部署: install/install-on-win.md
+    - 直接部署: install/install-direct.md
     - 配置本项目: install/configuration-bot.md
     - 使用 Docker 部署: install/install-via-docker.md 
     - 第一次对话: install/helloworld.md
@@ -64,8 +64,8 @@ nav:
     - 基础服务-广播: user/service-broadcast.md
     - 服务-kimo: user/service-kimo.md
     - 服务-在线运行代码: user/service-coderunner.md
-    - 服务-小玩具: user/service-funny.md
-    - 服务-小程序检测: user/service-rich.md
+    - 服务-乐: user/service-funny.md
+    - 服务-小程序检测: user/service-applet.md
     - 服务-以图搜图: user/service-saucenao.md
     - 服务-涩图: user/service-setu.md
     - 服务-小工具: user/service-util.md
@@ -73,6 +73,8 @@ nav:
     - 服务-以图搜番: user/service-animesearch.md
     - 服务-B站动态推送: user/service-bilibili_dynamic.md
     - 服务-拍立得: user/service-polaroid.md
+    - 服务-控制台: user/service-console.md
+    - 服务-Twitter动态订阅: user/service-twitter.md
   - 开发 - 贡献:
     - 概览: developer/overview.md
   - 时间线: changelog.md

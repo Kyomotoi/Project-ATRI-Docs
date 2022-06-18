@@ -23,7 +23,7 @@
 - 易于上手的 [可视化界面](https://github.com/Kyomotoi/Project-ATRI-Console).
 - Comming soon...
 
-## 📱 功能概览 | Service Overview
+## 📱 功能概览 | Services Overview
 
 <details markdown='1'><summary>涩涩</summary>
 
@@ -41,7 +41,8 @@
 - 以图搜番<br>
 - ATRI语（加密、解密，改自[`rcnb`](https://github.com/rcnbapp/RCNB.js)）<br>
 - 简单骰子<br>
-- b站动态订阅
+- b站动态订阅<br>
+- Twitter 动态订阅
 </details>
 
 <details markdown='1'><summary>娱乐</summary>
@@ -61,20 +62,20 @@
 
 > 被勾上的即已大致完成，但仍需优化<br>
 - [x] 网页控制台<br>
+- [ ] Twitter助手<br>
+- [ ] 自定义词库（多种方式匹配）<br>
 - [ ] RSS订阅<br>
-- [x] B站动态订阅<br>
 - [ ] 冷重启<br>
 - [ ] 进裙验证（问题可自定义）<br>
 - [ ] 好感度系统<br>
-- [ ] 模拟韭菜
 </details>
 
 ## 🚀 开始部署 | Getting Started
 
-请参考文档: [部署项目](https://atri.kyomotoi.moe/install/installation/)
+请参考文档: [部署项目](https://atri.imki.moe/install/installation/)
 
 ## 📖 文档 | Documentation
-所有公开的信息都可在 [atri.kyomotoi.moe](https://atri.kyomotoi.moe) 获取. 使用 [MkDocs](https://github.com/mkdocs/mkdocs/) 构建. 
+所有公开的信息都可在 [atri.imki.moe](https://atri.imki.moe) 获取. 使用 [MkDocs](https://github.com/mkdocs/mkdocs/) 构建. 
 
 对于 Mainland 用户**无法**访问: [文档](https://project-atri-docs.vercel.app/).
 
@@ -106,30 +107,31 @@
 <details markdown='1'><summary>以及以下朋友们！</summary>
 
 >排名不分现后
-- 50861735 11.00 CNY
-- 1072324725 17.00 CNY
-- AfdianUser_quGy 5.00 CNY
-- 1752179928 56.14 CNY
-- Mikasa 66.00 CNY
-- SkipM4 32.00 CNY
-- Chunk7 33.00 CNY
-- Wwwwwwalnut 10.00 CNY
-- 演变 5.00 CNY
-- YuimeC 23.33 CNY
-- Ohdmire 20.00 CNY
-- TerRALi 23.45 CNY
-- 虾仁 21.00 CNY
-- Tianli 11.00 CNY
-- linx 33.00 CNY
-- 屁东 5.00 CNY
-> Total: 343.92 CNY. 16 supporters.
+- 50861735 11.00 CNY<br>
+- 1072324725 17.00 CNY<br>
+- AfdianUser_quGy 5.00 CNY<br>
+- 1752179928 56.14 CNY<br>
+- Mikasa 66.00 CNY<br>
+- SkipM4 32.00 CNY<br>
+- Chunk7 33.00 CNY<br>
+- Wwwwwwalnut 10.00 CNY<br>
+- 演变 5.00 CNY<br>
+- YuimeC 23.33 CNY<br>
+- Ohdmire 20.00 CNY<br>
+- TerRALi 23.45 CNY<br>
+- 虾仁 21.00 CNY<br>
+- Tianli 11.00 CNY<br>
+- linx 33.00 CNY<br>
+- 屁东 5.00 CNY<br>
+- A_Kyuu 200.00 CNY<br>
+> Total: 543.92 CNY. 17 sponsors.
 </details>
 
 ## 👥 贡献 | Contribution
 
 如果你喜欢本项目，可以请我[喝杯红茶](https://afdian.net/@Kyomotoi).
 
-如果你有想法，有能力，欢迎:
+如果你有想法、有能力，欢迎:
 - [提交 Issue](https://github.com/Kyomotoi/ATRI/issues)
 - [提交 Pull request](https://github.com/Kyomotoi/ATRI/pulls)
 - [在交流群内进行反馈](https://jq.qq.com/?_wv=1027&k=WoAAYXbJ)

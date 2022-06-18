@@ -26,6 +26,8 @@
     - 说明: `(服务说明)`
     - 权限: `e.g. 超级用户、群管理`
 
+    ---
+
     ## (命令)
 
     - 说明: `(命令说明)`
@@ -48,8 +50,8 @@
 - 机器人附属服务:
     - [kimo](service-kimo.md)
     - [在线运行代码](service-coderunner.md)
-    - [小玩具](service-funny.md)
-    - [小程序检测](service-rich.md)
+    - [乐](service-funny.md)
+    - [小程序检测](service-applet.md)
     - [以图搜图](service-saucenao.md)
     - [涩图](service-setu.md)
     - [小工具](service-util.md)
@@ -57,3 +59,5 @@
     - [以图搜番](service-animesearch.md)
     - [B站动态推送](service-bilibili_dynamic.md)
     - [拍立得](service-polaroid.md)
+    - [控制台](service-console.md)
+    - [Twitter订阅](service-twitter.md)
