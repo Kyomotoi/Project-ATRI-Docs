@@ -5,6 +5,11 @@
 python3 main.py
 ```
 
+如果你是使用 `Poetry` 的:
+```shell
+poetry run
+``` 
+
 > 如果你是通过 `Docker` 部署的，无需以上步骤.
 
 !!! WARNING

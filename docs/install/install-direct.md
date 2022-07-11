@@ -38,5 +38,4 @@ pip/pip3 install poetry
 接着:
 ```shell
 poetry install
-poetry run
 ```
