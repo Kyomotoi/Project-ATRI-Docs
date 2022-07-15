@@ -20,7 +20,7 @@ git clone https://github.com/Kyomotoi/ATRI.git
 
 直接在项目目录下键入:
 ```shell
-pip install -r requeirements.txt
+pip install -r requirements.txt
 ```
 !!! warning
     Linux 环境下可能是 `pip3`
