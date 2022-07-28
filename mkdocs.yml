@@ -75,6 +75,8 @@ nav:
     - 服务-拍立得: user/service-polaroid.md
     - 服务-控制台: user/service-console.md
     - 服务-Twitter动态订阅: user/service-twitter.md
+    - 服务-谁是卷王: user/service-anti_effort.md
+    - 服务-自定义词库: user/service-thesaurus.md
   - 开发 - 贡献:
     - 概览: developer/overview.md
   - 时间线: changelog.md

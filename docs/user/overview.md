@@ -18,8 +18,6 @@
 !!! TIP
     文档格式:
     ```
-    服务-(服务名)
-
     ## 服务基础信息
 
     - 名称: `(服务名称)`
@@ -61,3 +59,5 @@
     - [拍立得](service-polaroid.md)
     - [控制台](service-console.md)
     - [Twitter订阅](service-twitter.md)
+    - [谁是卷王](service-anti_effort.md)
+    - [自定义词库](service-thesaurus.md)

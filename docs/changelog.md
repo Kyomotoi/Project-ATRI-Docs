@@ -2,9 +2,18 @@
 
 ## Comming soon...
 
-- Next: `YHN-001-A07`
+- Next: `YHN-001-A08`
 
 ---
+
+## YHN-001-A07
+
+- 新增:
+    - 插件: [谁是卷王](user/service-anti_effort.md) [@Kyomotoi](https://github.com/Kyomotoi)
+    - 插件: [自定义词库](user/service-thesaurus.md) [@Kyomotoi](https://github.com/Kyomotoi)
+- 优化:
+    - 部分插件命令提示.
+
 
 ## YHN-001-A06
 
