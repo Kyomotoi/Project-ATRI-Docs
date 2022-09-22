@@ -13,6 +13,7 @@ BotSelfConfig:
   command_sep: ["."]
   session_expire_timeout: 60
   proxy: ""  # 请参考文档
+  request_timeout: 5
 
 InlineGoCQHTTP:
   accounts: # 可多个账号，具体请参考文档
@@ -54,6 +55,7 @@ Setu:
 - command_sep: 配置机器人的命令分隔符，可以设置多个，用逗号分隔.
 - session_expire_timeout: 配置机器人的会话过期时间，单位为秒.
 - proxy: 配置机器人的代理，默认为空，示例填写: `proxy: "http://127.0.0.1:8000"`.
+- request_timeout: 机器人请求某一 url 最大等待时间，默认为 `5`.
 
 !!! warning
     对于 `proxy`，国内用户还请自行安排木弟子并设置代理.
