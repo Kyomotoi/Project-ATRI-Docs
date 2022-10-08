@@ -6,31 +6,23 @@
 
 ```yaml
 version: "3"
-
 services:
-  
   nonebot:
-    
     build: .
-    
     container_name: nonebot # 容器名称
-    
     ports:
       - "20000:20000" # 映射端口到宿主机 宿主机端口:容器端口
-    
     network_mode: bridge
-    
     restart: unless-stopped
-    
     volumes:
       - ~/.ATRI/data:/app/data              # 这几条为挂载ATRI的工作数据目录与配置文件
       - ~/.ATRI/accounts:/app/accounts      # 挂载格式为 宿主机路径:容器路径
       - ~/.ATRI/config.yml:/app/config.yml  # 默认的工作路径为 ~/.ATRI 注意该目录默认状态下是隐藏的
 ```
 
-### 接下来请编辑 [`config.yml`](configuration-bot.md) 并将其复制到工作目录下
+### 接下来请将 **config.yml** 复制到工作目录下
 
-> 默认的工作目录为 `~/.ATRI` 如不存在，请 `mkdir`
+> 默认的工作目录为 `~/.ATRI` 如不存在, 请 `mkdir`
 
 ### 请按您的处理器架构执行下列步骤
 
@@ -40,13 +32,7 @@ services:
     sudo docker-compose up
     ```
   
-- ARM64 & AARCH64
-
-    ```shell
-    cp ./Dockerfile ./Dockerfile_x86 && cp -f ./Dockerfile_aarch64 ./Dockerfile
-    
-    sudo docker-compose up
-    ```
+- ARM64 & AARCH64 (未测试, 可能存在bug, 欢迎帮忙w)
 
 - Windows
 

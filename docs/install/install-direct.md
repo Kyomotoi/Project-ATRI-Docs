@@ -12,30 +12,15 @@ git clone https://github.com/Kyomotoi/ATRI.git
 ```
 
 ## 准备所需依赖项
-> ATRI 提供了两种选择: 
-> - 直接为全局环境安装包
-> - 通过 `Poetry` 创建本项目专属运行环境
-
-### 通过全局环境
-
-直接在项目目录下键入:
+在任意一控制台下键入:
 ```shell
-pip install -r requirements.txt
+pip install poetry
 ```
-!!! warning
-    Linux 环境下可能是 `pip3`
+> 请确保你的 Python 版本 **>= 3.8.5**
 
-    执行前请通过 `pip/pip3 -V` 确定其指向的 Python 版本 `>=3.8.5`
-
-### 通过 Poetry
-
-先进行所需工具的安装:
-> pip 需求同上
-```shell
-pip/pip3 install poetry
-```
-
-接着:
+## 部署项目
 ```shell
 poetry install
 ```
+> 国内用户无需担心, 默认源已设为**清华源**<br>
+> 国外用户可按需修改: pyproject.toml 中 `[[tool.poetry.source]]` 下的 `default` 改为 `false`

@@ -50,8 +50,8 @@ nav:
   - 关于: about.md
   - 部署项目:
     - 准备工作: install/installation.md
-    - 直接部署: install/install-direct.md
     - 配置本项目: install/configuration-bot.md
+    - 直接部署: install/install-direct.md
     - 使用 Docker 部署: install/install-via-docker.md 
     - 第一次对话: install/helloworld.md
   - 服务介绍:

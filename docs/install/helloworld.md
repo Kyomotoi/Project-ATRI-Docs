@@ -1,14 +1,16 @@
 # Hello World!
 
-让我们回到文件目录下含 `main.py` 的地方，键入：
+让我们回到项目根目录:
+
+step.1
 ```shell
-python3 main.py
+poetry shell
 ```
 
-如果你是使用 `Poetry` 的:
+step.2
 ```shell
-poetry run
-``` 
+python main.py
+```
 
 > 如果你是通过 `Docker` 部署的，无需以上步骤.
 

@@ -7,7 +7,7 @@
 
 在开始之前，你需要准备以下内容:
 
-- Python 3.8+ (=<3.10)
+- Python >= 3.8.5
 - Git
 
 !!! warning
@@ -20,8 +20,3 @@
     因为这两个系统均自带 Python3.8+
 
     国内用户请自行安排木弟子并设置代理
-
-接下来，请选择你的部署方式:
-
-- [直接部署](install-direct.md)
-- [Docker](install-via-docker.md)

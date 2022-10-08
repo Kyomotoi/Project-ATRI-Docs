@@ -27,47 +27,48 @@
 
 <details markdown='1'><summary>涩涩</summary>
 
-- 文爱<br>
-- 涩图<br>
-- 涩图嗅探<br>
+- 文爱
+- 涩图
+- 涩图嗅探
 - 涩批翻译机
 </details>
 
 <details markdown='1'><summary>实用</summary>
 
-- 在线运行代码<br>
-- 伪造转发内容<br>
-- 以图搜图<br>
-- 以图搜番<br>
-- ATRI语（加密、解密，改自[`rcnb`](https://github.com/rcnbapp/RCNB.js)）<br>
-- 简单骰子<br>
-- b站动态订阅<br>
+- 在线运行代码
+- 伪造转发内容
+- 以图搜图
+- 以图搜番
+- ATRI语（加密、解密，改自[`rcnb`](https://github.com/rcnbapp/RCNB.js)）
+- 简单骰子
+- b站动态订阅
 - Twitter 动态订阅
+- 谁是卷王 (基于 wakatime)
+- 自定义词库（多种方式匹配）
 </details>
 
 <details markdown='1'><summary>娱乐</summary>
 
-- 看不懂的笑话<br>
-- 今天吃什么<br>
+- 看不懂的笑话
+- 今天吃什么
 - 老婆！
 </details>
 
 <details markdown='1'><summary>其它</summary>
 
-- B站小程序解析<br>
+- B站小程序解析
 - 状态查看
 </details>
 
 <details markdown='1'><summary>TODO</summary>
 
-> 被勾上的即已大致完成，但仍需优化<br>
-- [x] 网页控制台<br>
-- [ ] Twitter助手<br>
-- [ ] 自定义词库（多种方式匹配）<br>
-- [ ] RSS订阅<br>
-- [ ] 冷重启<br>
-- [ ] 进裙验证（问题可自定义）<br>
-- [ ] 好感度系统<br>
+> 被勾上的即已大致完成，但仍需优化
+- [x] 网页控制台
+- [ ] Twitter助手
+- [x] RSS订阅
+- [ ] 冷重启
+- [ ] 进裙验证（问题可自定义）
+- [ ] 好感度系统
 </details>
 
 ## 🚀 开始部署 | Getting Started
@@ -102,28 +103,29 @@
 [Richard Chien](https://github.com/richardchien), [Mnixry](https://github.com/mnixry) and go-cqhttp Developers.
 
 [JetBrains](https://www.jetbrains.com/?from=ATRI): 为本项目提供 [PyCharm](https://www.jetbrains.com/pycharm/?from=ATRI) 等 IDE 的授权<br>
-[<img src="https://cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/noting/jetbrains-variant-3.png" width="150"/>](https://www.jetbrains.com/?from=ATRI)
+[<img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" width="150"/>](https://www.jetbrains.com/?from=ATRI)
+[<img src="https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm_icon.png" width="130"/>](https://www.jetbrains.com/pycharm/?from=ATRI)
 
 <details markdown='1'><summary>以及以下朋友们！</summary>
 
->排名不分现后
-- 50861735 11.00 CNY<br>
-- 1072324725 17.00 CNY<br>
-- AfdianUser_quGy 5.00 CNY<br>
-- 1752179928 56.14 CNY<br>
-- Mikasa 66.00 CNY<br>
-- SkipM4 32.00 CNY<br>
-- Chunk7 33.00 CNY<br>
-- Wwwwwwalnut 10.00 CNY<br>
-- 演变 5.00 CNY<br>
-- YuimeC 23.33 CNY<br>
-- Ohdmire 20.00 CNY<br>
-- TerRALi 23.45 CNY<br>
-- 虾仁 21.00 CNY<br>
-- Tianli 11.00 CNY<br>
-- linx 33.00 CNY<br>
-- 屁东 5.00 CNY<br>
-- A_Kyuu 200.00 CNY<br>
+>排名不分先后
+- 50861735 11.00 CNY
+- 1072324725 17.00 CNY
+- AfdianUser_quGy 5.00 CNY
+- 1752179928 56.14 CNY
+- Mikasa 66.00 CNY
+- SkipM4 32.00 CNY
+- Chunk7 33.00 CNY
+- Wwwwwwalnut 10.00 CNY
+- 演变 5.00 CNY
+- YuimeC 23.33 CNY
+- Ohdmire 20.00 CNY
+- TerRALi 23.45 CNY
+- 虾仁 21.00 CNY
+- Tianli 11.00 CNY
+- linx 33.00 CNY
+- 屁东 5.00 CNY
+- A_Kyuu 200.00 CNY
 > Total: 543.92 CNY. 17 sponsors.
 </details>
 
@@ -131,7 +133,7 @@
 
 如果你喜欢本项目，可以请我[喝杯红茶](https://afdian.net/@Kyomotoi).
 
-如果你有想法、有能力，欢迎:
+如果你有想法，有能力，欢迎:
 - [提交 Issue](https://github.com/Kyomotoi/ATRI/issues)
 - [提交 Pull request](https://github.com/Kyomotoi/ATRI/pulls)
 - [在交流群内进行反馈](https://jq.qq.com/?_wv=1027&k=WoAAYXbJ)
