@@ -1,9 +1,17 @@
 # 配置本项目（Setting ATRI）
 
+## 注意
+!!! warning
+    请先运行本项目以获取设置文件.
+
+
 ## 配置预览
 打开位于项目根目录的 **config.yml**，你会得到如下列表：
 ```yaml
-BotSelfConfig:
+# 设置参考文档: https://atri.imki.moe/install/configuration-bot/
+ConfigVersion: "1.1.0"
+
+BotConfig:
   host: "127.0.0.1"
   port: 20000
   debug: false
@@ -12,11 +20,13 @@ BotSelfConfig:
   command_start: ["", "/"]
   command_sep: ["."]
   session_expire_timeout: 60
-  proxy: ""  # 请参考文档
+  access_token: ""
+  proxy: ""
   request_timeout: 5
 
-InlineGoCQHTTP:
-  accounts: # 可多个账号，具体请参考文档
+WithGoCQHTTP:
+  enabled: false
+  accounts:
     - uin: 1234567890
       password: ""
       protocol: 5
@@ -24,18 +34,22 @@ InlineGoCQHTTP:
   download_domain: "github.com"
   download_version: "v1.0.0-rc1"
 
+  gocq_webui_username: "ATRI"
+  gocq_webui_password: "ATRI1314000***"
+
 SauceNAO:
   key: ""
 
 Setu:
-  reverse_proxy: true # 请参考文档
+  reverse_proxy: true
   reverse_proxy_domain: "i.pixiv.re"
 ```
 
 其中:
 
-- [BotSelfConfig](#botselfconfig) 为本项目机器人主体设置.
-- [InlineGoCQHTTP](#inlinegocqhttp) 为gocqhttp相关设置.
+- ConfigVersion 为设置文件的版本. **请勿更改.**
+- [BotConfig](#botconfig) 为本项目机器人主体设置.
+- [WithGoCQHTTP](#withgocqhttp) 为gocqhttp相关设置.
 - [SauceNAO](#saucenao) 为搜图相关设置.
 - [Setu](#setu) 为色图相关设置.
 
@@ -44,29 +58,30 @@ Setu:
 
 ## 开始配置
 
-### BotSelfConfig
+### BotConfig
 
-- host: 配置机器人监听的**IP/主机名**. 如果有控制台相关需求，请改为: `0.0.0.0`
+- host: 配置机器人监听的**IP/主机名**. 如果有控制台相关需求, 请改为: `0.0.0.0`
 - port: 配置机器人监听的**端口**.
-- debug: 配置机器人的**调试模式**，默认为 `False`.
-- superusers: 配置机器人的**超级用户**，可以设置多个，用逗号分隔，即🐧号.
-- nickname: 机器人的**昵称**，可以更改/设置多个，用逗号分隔.
-- command_start: 配置机器人的**命令前缀**，可以设置多个，用逗号分隔.
-- command_sep: 配置机器人的**命令分隔符**，可以设置多个，用逗号分隔.
-- session_expire_timeout: 配置机器人的**会话过期时间**，单位为秒.
-- proxy: 配置机器人的**代理**，默认为空，示例填写: `proxy: "http://127.0.0.1:8000"`.
-- request_timeout: 机器人请求某一 url **最大等待时间**，默认为 `5`.
+- debug: 配置机器人的**调试模式**. 默认为 `False`.
+- superusers: 配置机器人的**超级用户**, 可以设置多个, 用逗号分隔, 即🐧号.
+- nickname: 机器人的**昵称**, 可以更改/设置多个, 用逗号分隔.
+- command_start: 配置机器人的**命令前缀**, 可以设置多个, 用逗号分隔.
+- command_sep: 配置机器人的**命令分隔符**, 可以设置多个, 用逗号分隔.
+- session_expire_timeout: 配置机器人的**会话过期时间**, 单位为秒.
+- access_token: 配置机器人**同协议端的通信密钥**, 请尽可能地复杂, 且仅允许英文字符. 如不填写, 将无法进入控制台. 示例填写: `access_token: "F$Fdghjbfe3@!gklmkldg%213dfsd!#12sdmDS!"`
+- proxy: 配置机器人的**代理* *, 默认为空. 示例填写: `proxy: "http://127.0.0.1:8000"`.
+- request_timeout: 机器人请求某一 url **最大等待时间**. 默认为 `5`.
 
 !!! warning
-    对于 **proxy**，国内用户还请自行安排木弟子并设置代理.
+    对于 **proxy**，国内用户还请自行安排梯子并设置代理.
+    > 当前已将有关**Jsdelivr**的资源替换为作者本人的反代: jsd.imki.moe
 
     本项目初始化资源位于**Jsdelivr**，由于某些用户将其用于不法用途，现已被国内封杀。故国内用户 `很可能` 无法完全、顺利地拉取所需必要资源.
-    > 当前已将有关**Jsdelivr**的资源替换为作者本人的反代: jsd.imki.moe
 
 !!! info
     如果你不是很能理解个别设置，我的建议是：不要动.
 
-### InlineGoCQHTTP
+### WithGoCQHTTP
 
 - accounts: 配置机器人的**账号**，可以设置多个.
     - demo:
@@ -88,17 +103,24 @@ Setu:
         |0|iPad|该设定为默认值，默认 iPad|
         |1|Android Phone|仅支持电脑在线，手机上线会被顶下|
         |2|Android Watch|无法接收 `notify` 事件、无法接收口令红包、无法接收撤回消息|
-        |3|Macos|可以手机在线，高贵MacOS，尽显bot的高贵|
+        |3|Macos|可以手机在线，高贵MacOS，尽显bot的高贵(易炸, 及其不推荐)|
         |4|企点|只能登录企点账号或企点子账号|
         |5|iPad|手机、电脑均可同时在线|
 
         对于本项目，推荐：`5`
 
 - download_domain:
-    - 配置机器人的**下载域名**，默认为 `github.com`
-    - 如果你是国内用户，请留空: `""`
+    - 配置机器人的**下载域名**，默认为 `github.com`. 可选的还有:
+        * download.fastgit.org
+        * ghdown.obfs.dev
 
-- download_version: 一般情况下我们无需关心.
+- download_version: 一般情况下我们无需关心. 留空默认为最新.
+
+- gocq_webui_username:
+    - 配置内置gocq前端的用户名
+
+- gocq_webui_password:
+    - 配置内置gocq前端的密码
 
 !!! warning
     如果你不希望使用本项目内置的**gocqhttp**，使用外部的话，请确保上报方式为: `array`.
@@ -190,8 +212,3 @@ Setu:
 ## 结束
 
 至此，机器人的配置已全部完成.
-
-接下来，请选择你的部署方式:
-
-- [直接部署](install-direct.md)
-- [Docker](install-via-docker.md)

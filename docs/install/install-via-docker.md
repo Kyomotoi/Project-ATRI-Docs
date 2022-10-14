@@ -1,5 +1,8 @@
 # 使用 Docker 部署本项目（Install via Docker）
 
+!!! warning
+    此页面过于陈旧, 有待更新
+
 > 此方法仅推荐 Linux 用户.
 
 ### 在项目目录下的 `docker-compose.yml` 中，您将会看到以下内容：

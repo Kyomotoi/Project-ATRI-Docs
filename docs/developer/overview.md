@@ -68,29 +68,13 @@ rbq这边请～[传送门](https://jq.qq.com/?_wv=1027&k=WoAAYXbJ)
 
 ## 开发
 
-首先，你最好先了解 [NoneBot2](https://github.com/nonebot/nonebot2) 的运作方式，或者你已经熟练掌握了 NoneBot2 的插件编写，并且具有一定的 Python 编程经验
+首先，你最好先了解 [NoneBot2](https://github.com/nonebot/nonebot2) 的运作方式，或者你已经熟练掌握了 NoneBot2 的插件编写，并且具有一定的 Python 编程经验.
 
-如果你已经克隆了源码仓库，并且需要深入研究代码，下面是设置开发环境的指南
+如果你已经克隆了源码仓库，并且需要深入研究代码，下面是设置开发环境的指南.
 
-由于每个人所使用的 IDE 不同，因此本项目并不包含专一的 IDE 环境设置文件，以下使用 `vscode` 作为示范
+由于每个人所使用的 IDE 不同，因此本项目并不包含专一的 IDE 环境设置文件，以下推荐使用 `vscode`.
 
-### 为 IDE 设置自动格式化
-
-详细可参考这篇指南: [传送门](https://black.readthedocs.io/en/stable/integrations/index.html)
-
-### 为 IDE 设置代码风格检测（可选）
-
-在 `vscode` 中，有这样一个插件: `pylance`。以下是它的介绍:
-<details markdown='1'><summary>Click me</summary>
-Fast, feature-rich language support for Python<br>
-Pylance is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool. Using Pyright, Pylance has the ability to supercharge your Python IntelliSense experience with rich type information, helping you write better code faster.<br>
-
-Pylance is the default language support for Python in Visual Studio Code and is shipped as part of that extension as an optional dependency.
-</details>
-
-> 当然，这是可选的，因为不同的开发者所使用的 IDE 不同，不会要求为了开发本项目就强制要求安装 `vscode` 并安排此插件
-
-除此之外，你还可以选择: [flask8](https://flake8.pycqa.org/en/latest/)
+针对 `vscode` 的初始配置已经写在项目的根目录下, 在 `vscode` 内通过文件夹打开即可.
 
 ---
 
@@ -109,7 +93,7 @@ Pylance is the default language support for Python in Visual Studio Code and is 
 首先确保你的 Python 版本 > 3.7.1
 
 ```shell
-pip install mkdocs
+pip install mkdocs-material
 ```
 
 ### 文档结构
