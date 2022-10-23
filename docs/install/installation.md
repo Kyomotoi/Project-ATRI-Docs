@@ -44,6 +44,12 @@ pip install poetry
 ```
 > 请确保你的 Python 版本 **>= 3.8.5**
 
+然后键入:
+```shell
+poetry install
+```
+以补全所需依赖
+
 ### 进入项目专属环境
 
 在项目目录下键入:
