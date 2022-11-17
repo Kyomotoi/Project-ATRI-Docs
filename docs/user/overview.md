@@ -53,7 +53,6 @@
     - [以图搜图](service-saucenao.md)
     - [涩图](service-setu.md)
     - [小工具](service-util.md)
-    - [群老婆](service-wife.md)
     - [以图搜番](service-animesearch.md)
     - [B站动态推送](service-bilibili_dynamic.md)
     - [拍立得](service-polaroid.md)
@@ -61,3 +60,4 @@
     - [Twitter订阅](service-twitter.md)
     - [谁是卷王](service-anti_effort.md)
     - [自定义词库](service-thesaurus.md)
+    - [贴贴](service-auto-tietie.md)

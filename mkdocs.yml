@@ -68,7 +68,6 @@ nav:
     - 服务-以图搜图: user/service-saucenao.md
     - 服务-涩图: user/service-setu.md
     - 服务-小工具: user/service-util.md
-    - 服务-群老婆: user/service-wife.md
     - 服务-以图搜番: user/service-animesearch.md
     - 服务-B站动态推送: user/service-bilibili_dynamic.md
     - 服务-拍立得: user/service-polaroid.md
@@ -76,6 +75,7 @@ nav:
     - 服务-Twitter动态订阅: user/service-twitter.md
     - 服务-谁是卷王: user/service-anti_effort.md
     - 服务-自定义词库: user/service-thesaurus.md
+    - 服务-贴贴: user/service-auto-tietie.md
   - 开发 - 贡献:
     - 概览: developer/overview.md
   - 时间线: changelog.md
