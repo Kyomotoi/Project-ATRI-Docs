@@ -1,2 +1,1 @@
-# For MacOS
-.DS_Store
+/node_modules/*

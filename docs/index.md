@@ -1,25 +1,28 @@
-# 这里是ATRI项目文档
+---
+layout: home
 
-由此开始，你将跟随咱去了解[这个项目](https://github.com/Kyomotoi/ATRI).
+title: ATRI
+titleTemplate: Document for ATRI
 
-## 本项目的特性（Features）
+hero:
+  name: ATRI
+  text: アトリは、高性能ですから！
+  tagline: 基于 Nonebot2 开发的高性能机器人。
+  actions:
+    - theme: brand
+      text: 深入了解
+      link: /quick_start/introduction.md
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/Kyomotoi/ATRI
 
-- 使用 [NoneBot 2](https://v2.nonebot.dev/) 进行项目底层构建.
-- 使用 [go-cqhttp](https://go-cqhttp.org/) 作为默认协议端.
-- 遵循 [OneBot v11](https://onebot.dev/) 规范.
-- 易于上手的 [可视化界面](https://github.com/Kyomotoi/Project-ATRI-Console).
-- Comming soon...
-
-## 我是用户
-
-我只想体验功能:
-
-- [使用手册](user/overview.md)
-
-我想了解这是一个怎样的项目:
-
-- [项目介绍](about.md)
-
-## 我想部署此项目
-
-- 请点击右下角 `Next` 继续阅读.
+features:
+  - title: “高性能”
+    details: 得益于强大的 NoneBot 2 和 go-cqhttp，真正意义上实现：全平台运行、运行时资源占用极少。
+  - title: 图形化控制界面（开发中）
+    details: ATRI 提供网页管理页面，让你不再拘泥于聊天框管理 ATRI。
+  - title: 完善的管理系统
+    details: 分群分人禁用/启用某项服务，分群分人封禁/解封。
+  - title: 细致入微的帮助
+    details: 精确到服务的单条命令。（仅当插件为 ATRI 本身所有时）
+---
