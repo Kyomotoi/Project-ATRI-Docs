@@ -15,3 +15,11 @@ ATRI 为管理提供了以下服务相关命令操作权限，方便管理针对
 - [自定义回复（词库管理）](../service/thesaurus.md)
 - [Twitter 动态订阅](../service/twitter.md)
 - [广播](../service/broadcast.md)
+
+## 插件管理说明
+身为群管理员，你可以单独控制仅限于本群的插件的启用和禁用。
+
+详细操作请查阅服务：[管理](../service/manage.md)。
+
+## 反馈说明
+在使用 ATRI 过程中，如出现了 `呜——出错了...请反馈维护者` 一类信息，你可以通过 [反馈](../service/repo.md) 服务，向维护者（ATRI 的主人）进行报告。

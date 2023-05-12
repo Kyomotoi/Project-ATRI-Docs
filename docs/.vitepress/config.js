@@ -5,6 +5,9 @@ export default {
     cleanUrls: true,
     themeConfig: {
         logo: '/logo.png',
+        search: {
+            provider: 'local'
+        },
         nav: [
             {
                 text: '入门', items: [
@@ -26,6 +29,7 @@ export default {
             },
             {
                 text: '服务合集', items: [
+                    { text: '引导', link: '/service/index.md' },
                     { text: '谁是卷王', link: '/service/anti_effort.md' },
                     { text: '小程序处理', link: '/service/applet.md' },
                     { text: 'b站动态订阅', link: '/service/bilibili_dynamic.md' },
@@ -38,8 +42,8 @@ export default {
                     { text: '管理', link: '/service/manage.md' },
                     { text: '拍立得', link: '/service/polaroid.md' },
                     { text: 'rss', link: '/service/rss.md' },
-                    { text: 'rss.rsshub', link: '/service/rss_rsshub.md' },
                     { text: 'rss.mikan', link: '/service/rss_mikan.md' },
+                    { text: 'rss.rsshub', link: '/service/rss_rsshub.md' },
                     { text: '以图搜图', link: '/service/saucenao.md' },
                     { text: '涩图', link: '/service/setu.md' },
                     { text: '词库管理', link: '/service/thesaurus.md' },
@@ -57,7 +61,11 @@ export default {
                 text: '设置', link: '/config.md'
             },
             {
-                text: '贡献', link: '/contribute/index.md'
+                text: '贡献', items: [
+                    { text: '引导', link: '/contribute/index.md' },
+                    { text: '为文档贡献', link: '/contribute/docs.md' },
+                    { text: '为 ATRI 贡献', link: '/contribute/project.md' }
+                ]
             }
         ],
         sidebar: {
@@ -79,7 +87,29 @@ export default {
                     ]
                 }
             ],
+            '/guide/': [
+                {
+                    text: '起步',
+                    items: [
+                        { text: '引导', link: '/guide/index.md' }
+                    ]
+                },
+                {
+                    text: '用户分流',
+                    items: [
+                        { text: '用户指南', link: '/guide/user.md' },
+                        { text: '群管理指南', link: '/guide/admin.md' },
+                        { text: '主人指南', link: '/guide/master.md' }
+                    ]
+                }
+            ],
             '/service/': [
+                {
+                    text: '起步',
+                    items: [
+                        { text: '引导', link: '/service/index.md' }
+                    ]
+                },
                 {
                     text: '服务合集',
                     items: [
@@ -95,8 +125,8 @@ export default {
                         { text: '管理', link: '/service/manage.md' },
                         { text: '拍立得', link: '/service/polaroid.md' },
                         { text: 'rss', link: '/service/rss.md' },
-                        { text: 'rss.rsshub', link: '/service/rss_rsshub.md' },
                         { text: 'rss.mikan', link: '/service/rss_mikan.md' },
+                        { text: 'rss.rsshub', link: '/service/rss_rsshub.md' },
                         { text: '以图搜图', link: '/service/saucenao.md' },
                         { text: '涩图', link: '/service/setu.md' },
                         { text: '词库管理', link: '/service/thesaurus.md' },
@@ -108,6 +138,21 @@ export default {
                         { text: 'IP查询', link: '/service/geoip.md' },
                         { text: '反馈', link: '/service/repo.md' },
                         { text: '状态', link: '/service/status.md' },
+                    ]
+                }
+            ],
+            '/contribute/': [
+                {
+                   text: '起步',
+                   items: [
+                    { text: '引导', link: '/contribute/index.md' }
+                   ]
+                },
+                {
+                    text: '贡献分流',
+                    items: [
+                        { text: '为文档贡献', link: '/contribute/docs.md' },
+                        { text: '为 ATRI 贡献', link: '/contribute/project.md' }
                     ]
                 }
             ]

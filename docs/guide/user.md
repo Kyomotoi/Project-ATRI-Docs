@@ -26,3 +26,6 @@ ATRI 为用户提供了以下服务，你可以直接点击服务名跳转到对
 - [IP查询](../service/geoip.md)
 - [反馈（报告 ATRI 的问题）](../service/repo.md)
 - [状态](../service/status.md)
+
+## 反馈说明
+在使用 ATRI 过程中，如出现了 `呜——出错了...请反馈维护者` 一类信息，你可以通过 [反馈](../service/repo.md) 服务，向维护者（ATRI 的主人）进行报告。
