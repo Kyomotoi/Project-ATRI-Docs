@@ -163,7 +163,7 @@ export default {
             }
         ],
         footer: {
-            message: 'Released under the MIT License.',
+            message: 'Released under the CC-BY-SA-4.0 License.',
             copyright: 'Copyright © 2020-present <a href="https://www.imki.moe" target=_blank>Kyomotoi</a>'
         }
     }
